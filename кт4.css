@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat:wght@300&family=PT+Sans&display=swap');
+body{
+    background-color: rgb(157, 201, 212);
+}
+header{
+    size: 50px;
+    margin-top: -55px;
+    margin-left: -15px;
+    margin-right: -20px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: rgb(255, 255, 255);
+}
+.group1{
+    flex-direction: column;
+    display: inline-block;
+}
+.box{
+    margin-top: -20px;
+    margin: 10px;
+    margin-left: 555px;
+    width: 370px;
+    height: 320px;
+    border: 10px;
+    border-color:cadetblue;
+    border-radius: 20px 0px 20px 0px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 4px;
+}
+.box1{
+    margin: 10px;
+    width: 370px;
+    height: 320px;
+    border: 10px;
+    border-color: cadetblue;
+    border-radius: 20px 0px 20px 0px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 4px;
+}
+footer {
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    margin-right: -20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: -10px;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+h1{
+    color: cadetblue;
+    font-size: 55px;
+    margin-left: 25px;
+    margin-top: 35px;
+    font-family: Montserrat;
+}
+p{
+    font-size: 17px;
+    color: gray;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 5px;
+    font-style: italic;
+}
+.p1{
+    padding-left: 460px;
+    font-style: normal;
+    font-size: 50px;
+
+}
+@media(max-width: 700px) {
+        .group1{
+            flex-direction: column;
+        }
+    .box, .box1{
+        width: 150px;
+        margin: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+}
+@media(min-width: 701px) and (max-width: 1000px) {
+    .group1 {
+        flex-direction: column;
+    }
+    .box, .box1{
+        width: 250px;
+        margin: 7px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+}
